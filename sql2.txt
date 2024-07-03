@@ -69,7 +69,7 @@ DELETE from OrderDetails
 WHERE OrderDetailID ='521';
 
 
-8. Update the Price Table, so that every product with a price less than $20 has the price increased by
+8. Update the Products table, so that every product with a price less than $20 has the price increased by
 0.50.  Paste your SQL statement below.
 UPDATE Products 
 SET Price = Price + 0.50
